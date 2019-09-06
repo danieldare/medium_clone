@@ -1,18 +1,18 @@
 .Header-container {
   border-bottom: 1px solid rgba(128, 0, 128, 0.315);
-  padding: 0 150px;
 
   .Header {
-    font-family: nunito;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0 15px 0;
+    padding: 30px 0 15px 0;
 
     &__nav-title {
       font-size: 3rem;
       font-weight: 700;
       color: purple;
+      letter-spacing: -0.25rem;
+      border-bottom: 1px solid purple;
     }
 
     &__nav-right-content {

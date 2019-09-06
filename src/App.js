@@ -6,9 +6,8 @@ import "./App.scss";
 function App() {
   return (
       <main className="App">
-        <Header>
+        <Header />
           <Routes />
-        </Header>
       </main>
   );
 }

@@ -5,8 +5,9 @@ import UserImg from "../../user-img.png";
 const Header = () => {
     return (
         <section className="Header-container">
+            <div className="container">
             <div className="Header">
-                <div className="Header__nav-title">MediumClone</div>
+                <div className="Header__nav-title">Author's Pad</div>
                 <div className="Header__nav-right-content">
                     <div className="search_btn">search</div>
                     <div className="social-btn">Facebook</div>
@@ -32,6 +33,7 @@ const Header = () => {
                     <li className="nav-item"><a href="/" className="nav-link">more...</a></li>
                 </ul>
             </nav>
+            </div>
         </section>
     )
 }
