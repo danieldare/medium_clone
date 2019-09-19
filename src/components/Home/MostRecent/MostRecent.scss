@@ -1,0 +1,136 @@
+.MostRecent {
+  margin-top: 40px;
+
+  .user-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .heading-recent {
+    grid-column-start: span 2;
+    border-bottom: 1px solid purple;
+    padding-bottom: 10px;
+    margin: 50px 0 20px 0;
+    color: purple;
+  }
+
+  .heading-recent span {
+    border-bottom: 2px solid purple;
+    display: inline-block;
+    padding-bottom: 0.94rem;
+    margin-bottom: -29px;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+
+    .card-container {
+      overflow-y: scroll;
+    }
+
+    .card {
+      display: flex;
+      width: 100%;
+      padding: 0 0 0 15px;
+      justify-content: space-between;
+
+      .title {
+        font-size: 2.1rem;
+        letter-spacing: -0.1rem;
+        margin: 15px 0;
+        color: purple;
+      }
+
+      .author-name {
+        font-size: 1.4rem;
+        letter-spacing: -0.1rem;
+        color: grey;
+        position: relative;
+        top: -10px;
+      }
+
+      .text {
+        letter-spacing: -0.1rem;
+        margin: 10px 0;
+        color: grey;
+        line-height: 2rem;
+      }
+    }
+
+    .content-img {
+      width: 250px;
+      height: 100%;
+      padding-left: 10px;
+    }
+  }
+
+  .editor-pick {
+    .bg-img-title {
+      background-image: linear-gradient(190deg, rgba(255, 255, 255, 0.453), purple), url(../../../editor2.jpg);
+      height: 50px;
+      background-position: bottom;
+      background-size: cover;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      padding: 20px;
+      color: #fff;
+      font-size: 1.9rem;
+      letter-spacing: -0.1rem;
+    }
+
+    .editor-pick-container {
+      background: rgba(241, 175, 241, 0.116);
+      border-radius: 5px;
+      height: 490px;
+      display: grid;
+      row-gap: 10px;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      padding-left: 20px;
+
+      .editor-pick-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+        color: purple;
+      }
+
+      .title {
+        font-size: 1.7rem;
+        letter-spacing: -0.1rem;
+        padding-left: 40px;
+        line-height: 2.2rem;
+        color: grey;
+        font-weight: 600;
+      }
+
+      .num {
+        font-size: 3rem;
+        font-weight: 100;
+        border-bottom: 1px solid grey;
+        align-self: center;
+        position: relative;
+      }
+
+      .dash {
+        align-self: center;
+        position: absolute;
+        bottom: 5px;
+        left: 0px;
+        width: 100%;
+        height: 30%;
+        background: rgba(231, 190, 231, 0.744);
+        z-index: -1;
+      }
+
+      .author-name {
+        font-size: 1.1rem;
+        position: relative;
+        left: 40px;
+      }
+    }
+  }
+}
